@@ -1,0 +1,31 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,p{
+  margin:0;padding:0;list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float:right;
+}
+.clearFix::after{
+  content: "";
+  display: block;
+  line-height: 0;
+  clear: both;
+}
+.center{
+  margin:0 auto;
+}
+.allWidth{
+  width:1200px;
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  width:1200px;background-color: #F2F2F2;margin:0 auto;
+  padding: 66px 15px 0;
+}
